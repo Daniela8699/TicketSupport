@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="ORM">
+		<class>model.Answer</class>
+		<class>model.Enterprise</class>
+		<class>model.EntityState</class>
+		<class>model.ExternalTicket</class>
+		<class>model.GeneralParameter</class>
+		<class>model.HistoricalAsignment</class>
+		<class>model.InternalTicket</class>
+		<class>model.Prioridad</class>
+		<class>model.Resource</class>
+		<class>model.Rol</class>
+		<class>model.SearchMade</class>
+		<class>model.SincronizationRegister</class>
+		<class>model.Source</class>
+		<class>model.Ticket</class>
+		<class>model.TicketState</class>
+		<class>model.User</class>
+	</persistence-unit>
+</persistence>
